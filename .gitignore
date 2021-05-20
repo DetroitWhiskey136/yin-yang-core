@@ -2,5 +2,5 @@
 .history
 .env
 test/
-
+dist/
 
