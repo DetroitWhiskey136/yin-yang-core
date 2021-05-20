@@ -1,11 +1,19 @@
 {
   "name": "yin-yang-core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is the core module of Yin Yang",
   "main": "index.js",
   "author": "Danno3817",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "eslint --ext ts src",
+    "lint:fix": "eslint --fix --ext ts src",
+    "build:ini": "rimraf dist",
+    "build": "yarn build:ini && tsc",
+    "docs:build": "typedoc --tsconfig tsconfig.json",
+    "docs:watch": "typedoc --watch --tsconfig tsconfig.json"
+  },
   "dependencies": {
     "canvas": "^2.8.0",
     "discord.js": "discordjs/discord.js",
