@@ -1,6 +1,6 @@
-.yarn
-.history
-.env
+.yarn/
+.history/
+.vscode/
 test/
 dist/
 

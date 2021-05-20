@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "prepare": "yarn lint && yarn build",
     "lint": "eslint --ext ts src",
     "lint:fix": "eslint --fix --ext ts src",
     "build:ini": "rimraf dist",
@@ -14,10 +15,19 @@
     "docs:build": "typedoc --tsconfig tsconfig.json",
     "docs:watch": "typedoc --watch --tsconfig tsconfig.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DetroitWhiskey136/yin-yang-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DetroitWhiskey136/yin-yang-core/issues"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
   "dependencies": {
     "canvas": "^2.8.0",
     "discord.js": "discordjs/discord.js",
-    "dotenv": "^9.0.2",
     "klaw": "^3.0.0",
     "moment": "^2.29.1"
   },
@@ -26,6 +36,7 @@
     "@types/node": "^15.3.1",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
+    "@yarnpkg/pnpify": "^3.0.0-rc.3",
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.2",
