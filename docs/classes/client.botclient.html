@@ -70,11 +70,21 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>This is the class for the BotClient used to store all
+						that goodness you don&#39;t want on your main client</p>
+						<pre><code class="language-js"><span style="color: #89DDFF">new</span><span style="color: #EEFFFF"> Client</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">BotClient</span><span style="color: #EEFFFF">(options)</span>
+</code></pre>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<a href="../interfaces/ibotclient.html" class="tsd-signature-type" data-tsd-kind="Interface">IBotClient</a>
+						<a href="../interfaces/client.ibotclient.html" class="tsd-signature-type" data-tsd-kind="Interface">IBotClient</a>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">BotClient</span>
@@ -97,8 +107,6 @@
 						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="client.botclient.html#aliases"
-								class="tsd-kind-icon">aliases</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="client.botclient.html#client"
 								class="tsd-kind-icon">client</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="client.botclient.html#commands"
@@ -127,10 +135,17 @@
 							<aside class="tsd-sources">
 								<p>Inherited from IBotClient.constructor</p>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates an instance of BotClient.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>options: <span class="tsd-signature-type">ClientOptions</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="client.botclient.html" class="tsd-signature-type" data-tsd-kind="Class">BotClient</a></h4>
@@ -141,27 +156,19 @@
 			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-					<a name="aliases" class="tsd-anchor"></a>
-					<h3>aliases</h3>
-					<div class="tsd-signature tsd-kind-icon">aliases<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Collection</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
-					<aside class="tsd-sources">
-						<p>Inherited from <a href="../interfaces/ibotclient.html">IBotClient</a>.<a href="../interfaces/ibotclient.html#aliases">aliases</a></p>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="client" class="tsd-anchor"></a>
 					<h3>client</h3>
 					<div class="tsd-signature tsd-kind-icon">client<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Client</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="../interfaces/ibotclient.html">IBotClient</a>.<a href="../interfaces/ibotclient.html#client">client</a></p>
+						<p>Inherited from <a href="../interfaces/client.ibotclient.html">IBotClient</a>.<a href="../interfaces/client.ibotclient.html#client">client</a></p>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="commands" class="tsd-anchor"></a>
 					<h3>commands</h3>
-					<div class="tsd-signature tsd-kind-icon">commands<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Collection</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">commands<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Collection</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="commandhandler.command.html" class="tsd-signature-type" data-tsd-kind="Class">Command</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="../interfaces/ibotclient.html">IBotClient</a>.<a href="../interfaces/ibotclient.html#commands">commands</a></p>
+						<p>Inherited from <a href="../interfaces/client.ibotclient.html">IBotClient</a>.<a href="../interfaces/client.ibotclient.html#commands">commands</a></p>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -169,7 +176,7 @@
 					<h3>database</h3>
 					<div class="tsd-signature tsd-kind-icon">database<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="../interfaces/ibotclient.html">IBotClient</a>.<a href="../interfaces/ibotclient.html#database">database</a></p>
+						<p>Inherited from <a href="../interfaces/client.ibotclient.html">IBotClient</a>.<a href="../interfaces/client.ibotclient.html#database">database</a></p>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -177,7 +184,7 @@
 					<h3>events</h3>
 					<div class="tsd-signature tsd-kind-icon">events<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Collection</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="../interfaces/ibotclient.html">IBotClient</a>.<a href="../interfaces/ibotclient.html#events">events</a></p>
+						<p>Inherited from <a href="../interfaces/client.ibotclient.html">IBotClient</a>.<a href="../interfaces/client.ibotclient.html#events">events</a></p>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -185,7 +192,7 @@
 					<h3>logger</h3>
 					<div class="tsd-signature tsd-kind-icon">logger<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="../interfaces/ibotclient.html">IBotClient</a>.<a href="../interfaces/ibotclient.html#logger">logger</a></p>
+						<p>Inherited from <a href="../interfaces/client.ibotclient.html">IBotClient</a>.<a href="../interfaces/client.ibotclient.html#logger">logger</a></p>
 					</aside>
 				</section>
 			</section>
@@ -199,6 +206,12 @@
 					<li class="current tsd-kind-namespace">
 						<a href="../modules/client.html">Client</a>
 					</li>
+					<li class=" tsd-kind-namespace">
+						<a href="../modules/commandhandler.html">Command<wbr>Handler</a>
+					</li>
+					<li class=" tsd-kind-namespace">
+						<a href="../modules/eventhandler.html">Event<wbr>Handler</a>
+					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
@@ -210,9 +223,6 @@
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
 								<a href="client.botclient.html#constructor" class="tsd-kind-icon">constructor</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="client.botclient.html#aliases" class="tsd-kind-icon">aliases</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="client.botclient.html#client" class="tsd-kind-icon">client</a>
@@ -233,6 +243,9 @@
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-namespace">
+						<a href="../interfaces/client.ibotclient.html" class="tsd-kind-icon">IBot<wbr>Client</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -247,10 +260,6 @@
 				class="tsd-kind-icon">Inherited constructor</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span
 				class="tsd-kind-icon">Inherited property</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span
-				class="tsd-kind-icon">Property</span></li>
 			</ul>
 		</div>
 	</div>
